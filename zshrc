@@ -45,7 +45,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting git-extras)
+plugins=(git zsh-syntax-highlighting git-extras laravel tmux)
 # User configuration
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -64,6 +64,10 @@ source $ZSH/oh-my-zsh.sh
 # fi
 alias pu='phpunit'
 alias inst='sudo apt-get install'
+alias dots="cd ~/.dotfiles && vim"
+#get octal number of file/folder:
+#see http://askubuntu.com/questions/152001/how-can-i-get-octal-file-permissions-from-command-line
+alias oct="stat -c %a"
 #alias mkd='mkdir -p $1; cd $1;'
 
 #mkd() { mkdir -p "$@" && builtin cd "$_"; }

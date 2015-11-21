@@ -1,6 +1,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 source "zsh/aliases.zsh"
+#set the $EDITOR for tmux 
+export EDITOR="vim"
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -45,7 +47,7 @@ DISABLE_AUTO_TITLE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting git-extras laravel tmux)
+plugins=(git zsh-syntax-highlighting git-extras laravel tmux tmuxinator)
 # User configuration
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH

@@ -3,6 +3,7 @@ export ZSH=$HOME/.oh-my-zsh
 source "zsh/aliases.zsh"
 #set the $EDITOR for tmux 
 export EDITOR="vim"
+export TERM=screen-256color-bce
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each

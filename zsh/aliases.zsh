@@ -2,6 +2,7 @@
 
 alias pu="phpunit"
 alias inst="sudo apt-get install"
+alias upd="sudo apt-get update"
 alias dots="cd ~/.dotfiles && vim"
 alias tmux="tmux -2"
 #show hidden files

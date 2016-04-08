@@ -54,6 +54,7 @@ call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 Plugin 'bling/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'kien/ctrlp.vim'
@@ -63,6 +64,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
 Plugin 'moll/vim-bbye'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-liquid'
 Bundle 'nanotech/jellybeans.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

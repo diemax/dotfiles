@@ -1,5 +1,9 @@
 ### My personal dotfiles
 
+
+## Screenshot:
+[![screenshot](https://github.com/diemax/dotfiles/blob/master/screenshot.png)]
+
 ## TODO
 * Better docs in README
 * Better docs in files

@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-source ".dotfiles/zsh/aliases.zsh"
+source "$HOME/.dotfiles/zsh/aliases.zsh"
 #set the $EDITOR for tmux 
 export EDITOR="vim"
 export TERM=screen-256color-bce

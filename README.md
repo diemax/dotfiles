@@ -2,7 +2,7 @@
 
 
 ## Screenshot:
-[![screenshot](https://github.com/diemax/dotfiles/blob/master/screenshot.png)]
+![screenshot](https://github.com/diemax/dotfiles/blob/master/screenshot.png)
 
 ## TODO
 * Better docs in README

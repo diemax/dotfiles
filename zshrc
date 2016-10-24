@@ -15,10 +15,12 @@ export GOPATH=~/gogo
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main)
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
-
+alias vim="mvim -v"
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
-
+function vm () {
+    (cd ~/Homestead && vagrant $*)
+}
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
 

@@ -25,6 +25,9 @@ set splitright
 set ruler
 set wildmenu
 set showmatch
+"faster ctrl-p
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
 "rubocop checker for ruby files
 let g:syntastic_ruby_checkers = ['rubocop']
 "command W and Q if error press 
@@ -36,6 +39,7 @@ set hlsearch
 set incsearch
 set ignorecase
 let g:airline_powerline_fonts = 1
+let g:Powerline_symbols='unicode'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 "para los archivos ruby los tabs son de 2 espacios
@@ -81,6 +85,8 @@ filetype plugin indent on    " required
 set background=dark
 silent! colorscheme jellybeans
 syntax on
+set guifont=Monaco:h12
+
 set t_Co=256
 set nu
 set tabstop=4 shiftwidth=4 expandtab

@@ -10,4 +10,6 @@ alias lsdot='ls -ld .*'
 
 #get octal number of file/folder:
 #see http://askubuntu.com/questions/152001/how-can-i-get-octal-file-permissions-from-command-line
-alias oct="stat -c %a"
+#alias oct="stat -c %a"
+#now for macOS
+alias oct="stat -f %Mp%Lp"

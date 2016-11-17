@@ -70,6 +70,7 @@ Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'moll/vim-bbye'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tpope/vim-fugitive'
+Plugin 'gosukiwi/vim-atom-dark'
 Plugin 'tpope/vim-liquid'
 Bundle 'nanotech/jellybeans.vim'
 " required for snipmate
@@ -84,8 +85,11 @@ filetype plugin indent on    " required
 
 set background=dark
 silent! colorscheme jellybeans
+"silent! colorscheme atom-dark-256
 syntax on
-set guifont=Monaco:h12
+"set guifont=Monaco:h12
+set macligatures
+set guifont=Fira\ Code:h12
 
 set t_Co=256
 set nu

@@ -71,6 +71,7 @@ Plugin 'moll/vim-bbye'
 Plugin 'chriskempson/base16-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'gosukiwi/vim-atom-dark'
+Plugin 'Lokaltog/vim-distinguished'
 Plugin 'tpope/vim-liquid'
 Bundle 'nanotech/jellybeans.vim'
 " required for snipmate
@@ -93,5 +94,6 @@ set guifont=Fira\ Code:h12
 
 set t_Co=256
 set nu
+set tabstop=4 shiftwidth=4 expandtab
 set tabstop=4 shiftwidth=4 expandtab
 

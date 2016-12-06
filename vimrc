@@ -25,11 +25,15 @@ set splitright
 set ruler
 set wildmenu
 set showmatch
+let g:NERDTreeIgnore=['\~$', 'vendor']
 "faster ctrl-p
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
-
-"rubocop checker for ruby files
-let g:syntastic_ruby_checkers = ['rubocop']
+let g:airline_theme='murmur'
+let g:airline_powerline_fonts = 1
+"let g:Powerline_symbols='unicode'
+let g:airline_extensions = ['branch', 'tabline']
+"let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
 "command W and Q if error press 
 command W w
 command WQ wq
@@ -38,11 +42,7 @@ command Q q
 set hlsearch
 set incsearch
 set ignorecase
-let g:airline_powerline_fonts = 1
-let g:Powerline_symbols='unicode'
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#fnamemod = ':t'
-"para los archivos ruby los tabs son de 2 espacios
+
 autocmd FileType ruby setlocal ts=2 sts=2 sw=2 et
 autocmd FileType javascript setlocal ts=2 sts=2 sw=2 noet
 
@@ -73,6 +73,8 @@ Plugin 'gosukiwi/vim-atom-dark'
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'tpope/vim-liquid'
+Plugin 'shawncplus/phpcomplete.vim'
+"Plugin 'itchyny/lightline.vim'
 Bundle 'nanotech/jellybeans.vim'
 Plugin 'w0ng/vim-hybrid'
 " required for snipmate
@@ -91,7 +93,6 @@ silent! colorscheme jellybeans
 syntax on
 "set guifont=Monaco:h12
 set macligatures
-set guifont=Fira\ Code:h12
 
 set t_Co=256
 set nu

@@ -17,7 +17,7 @@ For vim plugins you can use [Vundle](https://github.com/robbyrussell/oh-my-zsh)
 ## TODO
 * Better docs in files
 * Git modules config
-* Screenshot
+* [x] Screenshot
 * Directories organization
 * Dotfiles repos list (inspiration)
 * Install script 

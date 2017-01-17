@@ -9,7 +9,7 @@
 
 
 ## Screenshot:
-![screenshot](https://github.com/diemax/dotfiles/blob/master/screenshot.png)
+![screenshot](https://github.com/diemax/dotfiles/blob/master/screen_shot.png)
 
 ## Install:
 You need to install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and [tmux](https://tmux.github.io/) 

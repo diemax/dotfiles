@@ -26,6 +26,7 @@ set ruler
 set wildmenu
 set showmatch
 let g:NERDTreeIgnore=['\~$', 'vendor']
+let g:jsx_ext_required = 0
 "faster ctrl-p
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 let g:airline_theme='murmur'
@@ -72,6 +73,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'gosukiwi/vim-atom-dark'
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 Plugin 'tpope/vim-liquid'
 Plugin 'shawncplus/phpcomplete.vim'
 "Plugin 'itchyny/lightline.vim'

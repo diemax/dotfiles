@@ -15,7 +15,9 @@ export GOPATH=~/gogo
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main)
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
-alias vim="mvim -v"
+if [ "$(uname 2> /dev/null)" != "Linux" ]; then
+    alias vim="mvim -v"
+fi
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
 function vm () {

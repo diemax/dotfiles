@@ -94,8 +94,13 @@ set background=dark
 silent! colorscheme jellybeans
 "silent! colorscheme atom-dark-256
 syntax on
-"set guifont=Monaco:h12
-set macligatures
+
+" Validating macOs, stolen from:
+" https://vi.stackexchange.com/a/2574
+if has('macunix')
+    set macligatures
+    set guifont=Monaco:h12
+endif
 
 set t_Co=256
 set nu

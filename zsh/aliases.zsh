@@ -13,6 +13,7 @@ alias lsdot='ls -ld .*'
 # https://unix.stackexchange.com/a/252170
 if [ "$(uname 2> /dev/null)" != "Linux" ]; then
     alias oct="stat -f %Mp%Lp" # Mac
+    alias inst="brew install"
 else
     alias oct="stat -c %a" # Ubuntu/Debian
     alias inst="sudo apt-get install"

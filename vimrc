@@ -45,7 +45,7 @@ set incsearch
 set ignorecase
 
 autocmd FileType ruby setlocal ts=2 sts=2 sw=2 et
-autocmd FileType javascript setlocal ts=2 sts=2 sw=2 noet
+autocmd FileType javascript setlocal ts=2 sts=0 sw=2
 
 if !exists('g:airline_symbols')
   let g:airline_symbols = {}
@@ -101,6 +101,9 @@ if has('macunix')
     set macligatures
     set guifont=Monaco:h12
 endif
+" Background color issue using tmux
+" source: https://stackoverflow.com/a/18224803
+highlight Normal ctermbg=NONE
 
 set t_Co=256
 set nu

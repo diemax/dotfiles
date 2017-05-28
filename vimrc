@@ -27,8 +27,11 @@ set wildmenu
 set showmatch
 let g:NERDTreeIgnore=['\~$', 'vendor']
 let g:jsx_ext_required = 0
-"faster ctrl-p
+" faster ctrl-p
+" ignoring files on .gitignore, source:
+" https://github.com/kien/ctrlp.vim/issues/174#issuecomment-49747252
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+" git airline settings: 
 let g:airline_theme='murmur'
 let g:airline_powerline_fonts = 1
 "let g:Powerline_symbols='unicode'

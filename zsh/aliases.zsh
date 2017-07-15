@@ -14,6 +14,10 @@ alias lsdot='ls -ld .*'
 if [ "$(uname 2> /dev/null)" != "Linux" ]; then
     alias oct="stat -f %Mp%Lp" # Mac
     alias inst="brew install"
+    alias killcam="sudo killall VDCAssistant"
+    # stolen from my friend Casiva Agustin 
+    # when the webcam suddenly stops working on MacOS
+    # http://casivaagustin.com.ar/index.php/osx-la-camara-deja-de-funcionar/
 else
     alias oct="stat -c %a" # Ubuntu/Debian
     alias inst="sudo apt-get install"

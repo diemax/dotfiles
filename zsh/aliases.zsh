@@ -8,6 +8,7 @@ alias wserver="python -m SimpleHTTPServer 8000"
 alias lsdot='ls -ld .*'
 # Count elements inside a folder:
 alias lscount='ls -l | grep -v ^l | wc -l'
+alias hosts='sudo vim /etc/hosts'
 
 # Get octal number of file/folder:
 # Ubuntu/linux: https://askubuntu.com/a/152003 

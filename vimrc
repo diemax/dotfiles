@@ -86,12 +86,15 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'Raimondi/delimitMate'
 
+" best theme ever!!
+Plugin 'arcticicestudio/nord-vim'
+Plugin 'junegunn/rainbow_parentheses.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 set background=dark
-silent! colorscheme jellybeans
+silent! colorscheme nord
 "silent! colorscheme atom-dark-256
 syntax on
 

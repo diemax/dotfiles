@@ -3,6 +3,7 @@
 alias pu="phpunit"
 alias dots="cd ~/.dotfiles && vim"
 alias tmux="tmux -2"
+alias wserver="python -m SimpleHTTPServer 8000"
 #show hidden files
 alias lsdot='ls -ld .*'
 # Count elements inside a folder:
